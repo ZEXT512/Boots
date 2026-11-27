@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>BOOTFPS // CYBER SIGILISM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="shell">
+        <aside class="rail">
+            <div class="brand">
+                <svg class="brand-sigil" viewBox="0 0 64 64" aria-hidden="true">
+                    <circle cx="32" cy="32" r="28"></circle>
+                    <circle cx="32" cy="32" r="20"></circle>
+                    <path d="M32 4 L52 44 L12 44 Z"></path>
+                    <path d="M32 60 L12 20 L52 20 Z"></path>
+                    <circle cx="32" cy="32" r="4" class="core-dot"></circle>
+                </svg>
+                <div>
+                    <div class="brand-title">BOOTFPS</div>
+                    <div class="brand-sub">CYBER SIGILISM</div>
+                </div>
+            </div>
+
+            <nav class="nav" aria-label="Modules">
+                <button class="nav-item is-active" data-view="dashboard"><span>00</span>DASHBOARD</button>
+                <button class="nav-item" data-view="processes"><span>01</span>PROCESSES</button>
+                <button class="nav-item" data-view="emulator"><span>02</span>EMULATOR</button>
+                <button class="nav-item" data-view="registry"><span>03</span>REGISTRY</button>
+                <button class="nav-item" data-view="power"><span>04</span>POWER</button>
+                <button class="nav-item" data-view="input"><span>05</span>INPUT</button>
+                <button class="nav-item" data-view="benchmark"><span>06</span>BENCHMARK</button>
+            </nav>
+
+            <div class="rail-foot">
+                <div class="rail-line"></div>
+                <div class="rail-meta">BUILD <b>RELEASE</b></div>
+                <div class="rail-meta">CORE <b>C++20</b></div>
+                <div class="rail-meta">HOST <b id="rail-host">OFFLINE</b></div>
+                <div class="rail-meta">ADMIN <b id="rail-admin">—</b></div>
+            </div>
+        </aside>
+
+        <main class="stage">
+            <header class="topbar">
+                <div class="title-wrap">
+                    <h1 class="glitch" data-text="BOOTFPS">BOOTFPS</h1>
+                    <p class="tagline">BOOT / FRAME / PERFORMANCE / SYSTEM</p>
+                </div>
+                <div class="status-strip">
+                    <span class="pill" id="pill-bridge"><i></i>HOST OFFLINE</span>
+                    <span class="pill pill-ok"><i></i>WEBVIEW2</span>
+                    <span class="pill" id="pill-admin"><i></i>ADMIN UNKNOWN</span>
+                    <span class="pill pill-time" id="clock">--:--:--</span>
+                </div>
+            </header>
+
+            <div id="view-root" class="view-root"></div>
+
+            <section class="logbar">
+                <div class="panel-head">
+                    <span>ACTIVITY LOG</span>
+                    <span class="panel-tag" id="log-count">0 EVENTS</span>
+                </div>
+                <div class="log" id="log" role="log" aria-live="polite"></div>
+            </section>
+
+            <footer class="foot">
+                <span>BOOTFPS / CYBER SIGILISM</span>
+                <span class="foot-sigil">⟁ 0x05 ⟁</span>
+                <span>RELEASE / C++20 / WIN32</span>
+            </footer>
+        </main>
+    </div>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

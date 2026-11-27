@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2F9138E-4FA1-3E5B-82C0-9883559816E2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>bootfps_ui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bootfps_ui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bootfps_ui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bootfps_ui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bootfps_ui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bootfps_ui.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bootfps_ui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bootfps_ui.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bootfps_ui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying BOOTFPS frontend assets</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/zext/Downloads/Boot fps/src/UI/web" "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/Debug/web"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Debug\bootfps_bridge.lib;..\Debug\CoreEngine.lib;..\Debug\WindowsSystemAnalyzer.lib;..\ProcessManager\Debug\ProcessManager.lib;..\InputLatencyOptimizer\Debug\InputLatencyOptimizer.lib;setupapi.lib;hid.lib;winusb.lib;..\RegistryOptimizer\Debug\RegistryOptimizer.lib;..\EmulatorOptimizer\Debug\EmulatorOptimizer.lib;psapi.lib;..\PowerOptimizer\Debug\PowerOptimizer.lib;PowrProf.lib;..\Benchmark\Debug\Benchmark.lib;..\Debug\HardwareMonitor.lib;pdh.lib;..\..\_deps\webview2\build\native\x64\WebView2LoaderStatic.lib;ole32.lib;advapi32.lib;oleaut32.lib;shell32.lib;shlwapi.lib;user32.lib;version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/Debug/bootfps_ui.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/Debug/bootfps_ui.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying BOOTFPS frontend assets</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/zext/Downloads/Boot fps/src/UI/web" "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/Release/web"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Release\bootfps_bridge.lib;..\Release\CoreEngine.lib;..\Release\WindowsSystemAnalyzer.lib;..\ProcessManager\Release\ProcessManager.lib;..\InputLatencyOptimizer\Release\InputLatencyOptimizer.lib;setupapi.lib;hid.lib;winusb.lib;..\RegistryOptimizer\Release\RegistryOptimizer.lib;..\EmulatorOptimizer\Release\EmulatorOptimizer.lib;psapi.lib;..\PowerOptimizer\Release\PowerOptimizer.lib;PowrProf.lib;..\Benchmark\Release\Benchmark.lib;..\Release\HardwareMonitor.lib;pdh.lib;..\..\_deps\webview2\build\native\x64\WebView2LoaderStatic.lib;ole32.lib;advapi32.lib;oleaut32.lib;shell32.lib;shlwapi.lib;user32.lib;version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/Release/bootfps_ui.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/Release/bootfps_ui.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying BOOTFPS frontend assets</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/zext/Downloads/Boot fps/src/UI/web" "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/MinSizeRel/web"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\bootfps_bridge.lib;..\MinSizeRel\CoreEngine.lib;..\MinSizeRel\WindowsSystemAnalyzer.lib;..\ProcessManager\MinSizeRel\ProcessManager.lib;..\InputLatencyOptimizer\MinSizeRel\InputLatencyOptimizer.lib;setupapi.lib;hid.lib;winusb.lib;..\RegistryOptimizer\MinSizeRel\RegistryOptimizer.lib;..\EmulatorOptimizer\MinSizeRel\EmulatorOptimizer.lib;psapi.lib;..\PowerOptimizer\MinSizeRel\PowerOptimizer.lib;PowrProf.lib;..\Benchmark\MinSizeRel\Benchmark.lib;..\MinSizeRel\HardwareMonitor.lib;pdh.lib;..\..\_deps\webview2\build\native\x64\WebView2LoaderStatic.lib;ole32.lib;advapi32.lib;oleaut32.lib;shell32.lib;shlwapi.lib;user32.lib;version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/MinSizeRel/bootfps_ui.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/MinSizeRel/bootfps_ui.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zext\Downloads\Boot fps\src;C:\Users\zext\Downloads\Boot fps\src\common;C:\Users\zext\Downloads\Boot fps\src\CoreEngine;C:\Users\zext\Downloads\Boot fps\src\WindowsSystemAnalyzer;C:\Users\zext\Downloads\Boot fps\src\HardwareMonitor;C:\Users\zext\Downloads\Boot fps\src\ProcessManager;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\include;C:\Users\zext\Downloads\Boot fps\src\InputLatencyOptimizer;C:\Users\zext\Downloads\Boot fps\src\RegistryOptimizer;C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer;C:\Users\zext\Downloads\Boot fps\src\PowerOptimizer;C:\Users\zext\Downloads\Boot fps\src\Benchmark;C:\Users\zext\Downloads\Boot fps\build\Release\_deps\webview2\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying BOOTFPS frontend assets</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/zext/Downloads/Boot fps/src/UI/web" "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/RelWithDebInfo/web"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\bootfps_bridge.lib;..\RelWithDebInfo\CoreEngine.lib;..\RelWithDebInfo\WindowsSystemAnalyzer.lib;..\ProcessManager\RelWithDebInfo\ProcessManager.lib;..\InputLatencyOptimizer\RelWithDebInfo\InputLatencyOptimizer.lib;setupapi.lib;hid.lib;winusb.lib;..\RegistryOptimizer\RelWithDebInfo\RegistryOptimizer.lib;..\EmulatorOptimizer\RelWithDebInfo\EmulatorOptimizer.lib;psapi.lib;..\PowerOptimizer\RelWithDebInfo\PowerOptimizer.lib;PowrProf.lib;..\Benchmark\RelWithDebInfo\Benchmark.lib;..\RelWithDebInfo\HardwareMonitor.lib;pdh.lib;..\..\_deps\webview2\build\native\x64\WebView2LoaderStatic.lib;ole32.lib;advapi32.lib;oleaut32.lib;shell32.lib;shlwapi.lib;user32.lib;version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/RelWithDebInfo/bootfps_ui.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/RelWithDebInfo/bootfps_ui.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\src\UI\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/src/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/src/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/src/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/src/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/src/UI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zext\Downloads\Boot fps\src\UI\main.cpp" />
+    <Natvis Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\nlohmann_json.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\ZERO_CHECK.vcxproj">
+      <Project>{8B51AE4F-46CF-3E56-ADCF-BE6B4AB4AEE4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\Benchmark\Benchmark.vcxproj">
+      <Project>{04F3A2C3-5B36-3E89-BF5A-E731024CD9FF}</Project>
+      <Name>Benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\CoreEngine.vcxproj">
+      <Project>{F8E7D298-3C93-319C-A921-3C7E0A93E7D6}</Project>
+      <Name>CoreEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\EmulatorOptimizer\EmulatorOptimizer.vcxproj">
+      <Project>{E060C11F-11AD-37FC-8B8B-E87D47CBC696}</Project>
+      <Name>EmulatorOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\HardwareMonitor.vcxproj">
+      <Project>{1547FA82-67D8-31E5-A4FD-98971D2DCD0C}</Project>
+      <Name>HardwareMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\InputLatencyOptimizer\InputLatencyOptimizer.vcxproj">
+      <Project>{F7FC476D-4063-311C-BF8E-075510364ABB}</Project>
+      <Name>InputLatencyOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\PowerOptimizer\PowerOptimizer.vcxproj">
+      <Project>{C61EDD15-FBB7-34C3-B95A-E3D5076260E1}</Project>
+      <Name>PowerOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\ProcessManager\ProcessManager.vcxproj">
+      <Project>{613C4B0F-FB36-3684-8567-642BD545871F}</Project>
+      <Name>ProcessManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\RegistryOptimizer\RegistryOptimizer.vcxproj">
+      <Project>{B02CE52F-6940-3D93-992D-7700170338F7}</Project>
+      <Name>RegistryOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\WindowsSystemAnalyzer.vcxproj">
+      <Project>{A016C2B8-7C5D-3427-A085-21D3061820BC}</Project>
+      <Name>WindowsSystemAnalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\bootfps_bridge.vcxproj">
+      <Project>{BB382F41-E430-33BB-B7BC-84F1C89750D0}</Project>
+      <Name>bootfps_bridge</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

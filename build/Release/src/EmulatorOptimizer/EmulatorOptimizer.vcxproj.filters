@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer\EmulatorOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer\EmulatorOptimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\src\EmulatorOptimizer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84AFC793-8E4C-3790-999D-F02CC70FAADE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85D7301E-C796-3F5C-BFDD-6620E361BFEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+bootfps_smoke 5 0.0455655
+bootfps_bridge 2 0.873815
+---

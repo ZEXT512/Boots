@@ -1,0 +1,72 @@
+Start testing: Nov 27 00:26 SE Asia Standard Time
+----------------------------------------------------------
+1/2 Testing: bootfps_smoke
+1/2 Test: bootfps_smoke
+Command: "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Release/bootfps_smoke_tests.exe"
+Directory: C:/Users/zext/Downloads/Boot fps/build/Release/tests
+"bootfps_smoke" start time: Nov 27 00:26 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] Result<T>::Ok
+[ PASS ] Result<T>::Err
+[ PASS ] Result<void>::Ok
+[ PASS ] Result<void>::Err
+[ PASS ] JSON report structure
+[ PASS ] Cyber Sigilism HTML palette
+[ PASS ] Benchmark comparison
+[ PASS ] Applied settings verification
+[ PASS ] Rollback recommendation on regression
+[ PASS ] PDH wrapper counter registration
+[ PASS ] PDH wrapper collection
+Failures: 0
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"bootfps_smoke" end time: Nov 27 00:26 SE Asia Standard Time
+"bootfps_smoke" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: bootfps_bridge
+2/2 Test: bootfps_bridge
+Command: "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Release/bootfps_bridge_tests.exe"
+Directory: C:/Users/zext/Downloads/Boot fps/build/Release/tests
+"bootfps_bridge" start time: Nov 27 00:26 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] system.info responds
+[ PASS ] system.info reports logical cores
+[ PASS ] system.info reports OS
+[ PASS ] system.info reports CPU
+[ PASS ] metrics.sample responds
+[ PASS ] metrics.sample returns CPU and memory
+[ PASS ] metrics.sample reports physical RAM
+[ PASS ] process.list responds
+[ PASS ] process.list finds processes
+[ PASS ] process.list returns an array
+[ PASS ] process entries carry pid/name/class
+[ PASS ] registry.scan responds
+[ PASS ] registry.scan returns managed keys
+[ PASS ] power.list responds
+[ PASS ] power.list returns schemes
+[ PASS ] power.diagnose responds
+[ PASS ] power.diagnose returns warnings
+[ PASS ] emulator.detect responds
+[ PASS ] emulator.detect returns an array
+[ PASS ] input.read responds
+[ PASS ] input.read returns mouse and keyboard values
+[ PASS ] input.devices responds
+[ PASS ] input.devices returns an array
+[ PASS ] logs.tail responds
+[ PASS ] logs.tail returns log lines
+[ PASS ] unknown command is rejected
+Failures: 0
+<end of output>
+Test time =   1.75 sec
+----------------------------------------------------------
+Test Passed.
+"bootfps_bridge" end time: Nov 27 00:26 SE Asia Standard Time
+"bootfps_bridge" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Nov 27 00:26 SE Asia Standard Time

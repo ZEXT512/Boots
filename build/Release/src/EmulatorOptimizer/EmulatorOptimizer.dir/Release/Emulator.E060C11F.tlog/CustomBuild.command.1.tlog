@@ -1,0 +1,10 @@
+^C:\USERS\ZEXT\DOWNLOADS\BOOT FPS\SRC\EMULATOROPTIMIZER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/src/EmulatorOptimizer/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

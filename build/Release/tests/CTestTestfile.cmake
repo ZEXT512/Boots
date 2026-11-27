@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/zext/Downloads/Boot fps/tests
+# Build directory: C:/Users/zext/Downloads/Boot fps/build/Release/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test("bootfps_smoke" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Debug/bootfps_smoke_tests.exe")
+  set_tests_properties("bootfps_smoke" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Debug/bootfps_smoke_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;5;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test("bootfps_smoke" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Release/bootfps_smoke_tests.exe")
+  set_tests_properties("bootfps_smoke" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Release/bootfps_smoke_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;5;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test("bootfps_smoke" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/MinSizeRel/bootfps_smoke_tests.exe")
+  set_tests_properties("bootfps_smoke" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/MinSizeRel/bootfps_smoke_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;5;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test("bootfps_smoke" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/RelWithDebInfo/bootfps_smoke_tests.exe")
+  set_tests_properties("bootfps_smoke" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/RelWithDebInfo/bootfps_smoke_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;5;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+else()
+  add_test("bootfps_smoke" NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test("bootfps_bridge" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Debug/bootfps_bridge_tests.exe")
+  set_tests_properties("bootfps_bridge" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Debug/bootfps_bridge_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;11;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test("bootfps_bridge" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Release/bootfps_bridge_tests.exe")
+  set_tests_properties("bootfps_bridge" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/Release/bootfps_bridge_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;11;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test("bootfps_bridge" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/MinSizeRel/bootfps_bridge_tests.exe")
+  set_tests_properties("bootfps_bridge" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/MinSizeRel/bootfps_bridge_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;11;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test("bootfps_bridge" "C:/Users/zext/Downloads/Boot fps/build/Release/tests/RelWithDebInfo/bootfps_bridge_tests.exe")
+  set_tests_properties("bootfps_bridge" PROPERTIES  _CMAKE_TEST_BUILD_DEPENDS "C:/Users/zext/Downloads/Boot fps/build/Release/tests/RelWithDebInfo/bootfps_bridge_tests.exe" _BACKTRACE_TRIPLES "C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;11;add_test;C:/Users/zext/Downloads/Boot fps/tests/CMakeLists.txt;0;")
+else()
+  add_test("bootfps_bridge" NOT_AVAILABLE)
+endif()

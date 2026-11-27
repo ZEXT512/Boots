@@ -1,0 +1,10 @@
+^C:\USERS\ZEXT\DOWNLOADS\BOOT FPS\BUILD\RELEASE\CMAKEFILES\9177A40231915F51BC8361D072047EF7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/zext/Downloads/Boot fps/build/Release/BOOTFPS.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

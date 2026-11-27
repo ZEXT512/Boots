@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\bf14e6b2ba6300d32c14f38ea5efef24\nlohmann_json-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\f103ed6baf2ce5b0c0c6f3d73e805fb5\nlohmann_json-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\aeef8d616c3153107222c04262e24669\nlohmann_json-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\zext\Downloads\Boot fps\build\Release\_deps\nlohmann_json-subbuild\CMakeFiles\nlohmann_json-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{52724F49-26F8-33CD-B749-ACB8EBB5751A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

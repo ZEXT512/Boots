@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FCF111A3-0A9D-32CA-800D-5E0A5DF85588}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\WindowsPaths.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeCXXCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeRCCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\WindowsPaths.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeCXXCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeRCCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\WindowsPaths.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeCXXCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeRCCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/zext/Downloads/Boot fps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zext/Downloads/Boot fps" "-BC:/Users/zext/Downloads/Boot fps/build/Release" --check-stamp-file "C:/Users/zext/Downloads/Boot fps/build/Release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.5\Modules\Platform\WindowsPaths.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeCXXCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeRCCompiler.cmake;C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\4.5.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\ZERO_CHECK.vcxproj">
+      <Project>{8B51AE4F-46CF-3E56-ADCF-BE6B4AB4AEE4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\Benchmark\Benchmark.vcxproj">
+      <Project>{04F3A2C3-5B36-3E89-BF5A-E731024CD9FF}</Project>
+      <Name>Benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\CoreEngine.vcxproj">
+      <Project>{F8E7D298-3C93-319C-A921-3C7E0A93E7D6}</Project>
+      <Name>CoreEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\EmulatorOptimizer\EmulatorOptimizer.vcxproj">
+      <Project>{E060C11F-11AD-37FC-8B8B-E87D47CBC696}</Project>
+      <Name>EmulatorOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\HardwareMonitor.vcxproj">
+      <Project>{1547FA82-67D8-31E5-A4FD-98971D2DCD0C}</Project>
+      <Name>HardwareMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\InputLatencyOptimizer\InputLatencyOptimizer.vcxproj">
+      <Project>{F7FC476D-4063-311C-BF8E-075510364ABB}</Project>
+      <Name>InputLatencyOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\PowerOptimizer\PowerOptimizer.vcxproj">
+      <Project>{C61EDD15-FBB7-34C3-B95A-E3D5076260E1}</Project>
+      <Name>PowerOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\ProcessManager\ProcessManager.vcxproj">
+      <Project>{613C4B0F-FB36-3684-8567-642BD545871F}</Project>
+      <Name>ProcessManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\RegistryOptimizer\RegistryOptimizer.vcxproj">
+      <Project>{B02CE52F-6940-3D93-992D-7700170338F7}</Project>
+      <Name>RegistryOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\WindowsSystemAnalyzer.vcxproj">
+      <Project>{A016C2B8-7C5D-3427-A085-21D3061820BC}</Project>
+      <Name>WindowsSystemAnalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\bootfps_bridge.vcxproj">
+      <Project>{BB382F41-E430-33BB-B7BC-84F1C89750D0}</Project>
+      <Name>bootfps_bridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\tests\bootfps_bridge_tests.vcxproj">
+      <Project>{41AAE727-B232-37B0-82CB-096D374D8233}</Project>
+      <Name>bootfps_bridge_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\tests\bootfps_smoke_tests.vcxproj">
+      <Project>{0DC97C94-32E3-364A-A903-C55A7EAA956B}</Project>
+      <Name>bootfps_smoke_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zext\Downloads\Boot fps\build\Release\src\UI\bootfps_ui.vcxproj">
+      <Project>{A2F9138E-4FA1-3E5B-82C0-9883559816E2}</Project>
+      <Name>bootfps_ui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

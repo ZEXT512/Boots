@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zext\Downloads\Boot fps\build\Release\CMakeFiles\b57a50602a21e4f9df759a685b7fb269\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B5208B96-6A66-3965-B025-18B72CD62BD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

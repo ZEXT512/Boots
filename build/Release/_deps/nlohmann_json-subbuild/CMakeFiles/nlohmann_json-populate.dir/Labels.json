@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/aeef8d616c3153107222c04262e24669/nlohmann_json-populate.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/f103ed6baf2ce5b0c0c6f3d73e805fb5/nlohmann_json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/zext/Downloads/Boot fps/build/Release/_deps/nlohmann_json-subbuild/CMakeFiles/bf14e6b2ba6300d32c14f38ea5efef24/nlohmann_json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmann_json-populate"
+		],
+		"name" : "nlohmann_json-populate"
+	}
+}
